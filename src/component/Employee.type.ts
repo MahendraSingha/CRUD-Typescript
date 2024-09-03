@@ -5,15 +5,16 @@ export interface IEmployee {
     email: string
 }
 
-export const dummyEmployeeList: IEmployee[] = [{
-    id: new Date().toJSON().toString(),
-    firstName: 'Dummy1',
-    lastName: 'Dummy11',
-    email: 'dummy1@gmail.com'
-}]
+// export const dummyEmployeeList: IEmployee[] = [{
+//     id: new Date().toJSON().toString(),
+//     firstName: 'Dummy1',
+//     lastName: 'Dummy11',
+//     email: 'dummy1@gmail.com'
+// }]
 
 export enum PageEnum {
     list,
     add,
+    update
     
 }
